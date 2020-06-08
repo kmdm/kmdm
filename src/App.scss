@@ -1,0 +1,54 @@
+@import '~bootstrap/dist/css/bootstrap';
+@import '~startbootstrap-stylish-portfolio/css/stylish-portfolio';
+@import '~simple-line-icons/css/simple-line-icons.css';
+
+header.masthead {
+  background-image: url('./background.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+
+  h1, h3 {
+    text-shadow:2px 2px 10px #000, 2px 2px 10px #ccc;
+    color: white;
+  }
+}
+
+.ratings {
+  @for $i from 1 through 5 {
+    &.rating-#{$i} {
+      span:nth-child(-n + #{$i}):before {
+        color: #ecb807;
+        content: "\2605";
+        position: absolute;
+      }
+    }
+  }
+}
+
+section.skills {
+  &.bg-secondary {
+    background-color: #ecb807 !important;
+  }
+
+  span.service-icon {
+    img {
+      max-width: 64px;
+      max-height: 64px;
+    }
+
+    &.php {
+      background: #8892BF;
+    }
+
+    &.node {
+      background: black;
+    }
+  }
+
+  &#opskills {
+    .ratings span:before {
+      color: #1D809F;
+    }
+  }
+}
+
