@@ -4,7 +4,7 @@ import React from 'react';
 export default function PortfolioItem(props)
 {
     return (
-        <div className="col-lg-6">
+        <div className="col-lg-6 text-black-50">
             <a className="portfolio-item" href={props.href}>
                 <span className="caption">
                     <span className="caption-content">
