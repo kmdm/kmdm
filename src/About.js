@@ -18,7 +18,10 @@ export default function About()
                             I am driven by technology challenges and a strong desire to solve problems and implement good, well-designed solutions. I am a technology enthusiast with a current interest in home automation and IoT.
                         </p>
                         <p className="mb-5">
-                            In the past I have contributed to various projects as a reverse engineer and exploit hunter for older HTC and Asus devices. I have a strong interest in security and enjoy implementing good security mechanisms as much as acting a penetration tester and seeking out security weaknesses.
+                            In the past I have contributed to various projects as a reverse engineer and exploit hunter for older Android devices. I have a strong interest in security and enjoy implementing good security mechanisms as much as acting a penetration tester and seeking out security weaknesses.
+                        </p>
+                        <p className="mb-5">
+                            I am a highly competent full stack engineer with a preference to create and architect backend solutions that increase the efficiency of other developers and make their job easier and more enjoyable.
                         </p>
                     </div>
                 </div>

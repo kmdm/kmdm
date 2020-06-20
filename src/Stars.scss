@@ -1,0 +1,12 @@
+.ratings {
+  @for $i from 1 through 5 {
+    &.rating-#{$i} {
+      span:nth-child(-n + #{$i}):before {
+        color: #ecb807;
+        content: "\2605";
+        position: absolute;
+      }
+    }
+  }
+}
+

@@ -1,0 +1,12 @@
+section.skills {
+  &.bg-secondary {
+    background-color: #ecb807 !important;
+  }
+
+  span.service-icon {
+    img {
+      max-width: 64px;
+      max-height: 64px;
+    }
+  }
+}

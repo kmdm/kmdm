@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Stars.scss';
+
 export default function Stars(props)
 {
     return (

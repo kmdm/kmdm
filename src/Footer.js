@@ -9,18 +9,18 @@ export default function Footer()
                     <li className="list-inline-item">
                         <a className="social-link rounded-circle text-white mr-3"
                            href="https://www.facebook.com/kennymillington">
-                            <i className="icon-social-facebook"></i>
+                            <i className="icon-social-facebook" />
                         </a>
                     </li>
                     <li className="list-inline-item">
                         <a className="social-link rounded-circle text-white mr-3"
                            href="https://www.linkedin.com/in/kennymillington/">
-                            <i className="icon-social-linkedin"></i>
+                            <i className="icon-social-linkedin" />
                         </a>
                     </li>
                     <li className="list-inline-item">
                         <a className="social-link rounded-circle text-white" href="https://github.com/kmdm">
-                            <i className="icon-social-github"></i>
+                            <i className="icon-social-github" />
                         </a>
                     </li>
                 </ul>

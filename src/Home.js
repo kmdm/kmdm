@@ -1,5 +1,7 @@
 import React from 'react';
 
+import './Home.scss';
+
 export default function Home()
 {
     return (
@@ -9,5 +11,5 @@ export default function Home()
             <h3 className="mb-3">Developer and Reverse Engineer</h3>
         </div>
     </header>
-);
+    );
 }
